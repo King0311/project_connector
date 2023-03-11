@@ -19,16 +19,6 @@
   color: #0088b8;
   flex-direction: column;
 }
-.select{
-  width: 30%;
-  height: auto;
-  background-color: white;
-  display: flex;
-  justify-content: space-evenly;
-  border-radius: 12px;
-  font-size:1.3em;
-  padding: 10px 0px;
-}
 .box {
   width: 30%;
   /* height: 90%; */
@@ -37,7 +27,7 @@
   border-radius: 12px;
 }
 
-input {
+input , select {
   border: 2px solid #0088b8;
   border-top-style: hidden;
   border-right-style: hidden;
@@ -47,6 +37,7 @@ input {
   width: 70%;
   font-size:1.3em;
   color: #0088b8;
+  text-align: center;
 }
 .forms{
   width: 100%;
